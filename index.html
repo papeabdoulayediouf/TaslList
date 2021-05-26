@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="lib/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="lib/jquery-1.11.3.min.js"></script>
+    <script src="lib/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/apps.js"></script>
+
+    <title>Task List</title>
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header">
+            <h1>To Do List App</h1>
+        </div>
+        <div data-role="content">
+            <form action="">
+                <input type="text"  id="task" placeholder="Ajouter une tache" >
+                <input type="button" value="Ajouter" onclick="addTask()">
+            </form>
+            <ul id="taskList" data-role="listview" data-inset="true">
+ 
+            </ul>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <h1>Master ESP &copy; Mai 2021</h1>
+        </div>
+    </div>
+    
+</body>
+</html>
